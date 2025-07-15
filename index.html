@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- Header Section with Title and Navigation -->
+    <header>
+        <h1>My Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#post1">Post 1</a></li>
+                <li><a href="#post2">Post 2</a></li>
+                <li><a href="#post3">Post 3</a></li>
+            </ul>
+        </nav>
+    </header>
+
+     <!-- Main Content Area -->
+    <main>
+        <!-- Search Bar for Filtering Posts by Title -->
+        <input type="text" id="searchBar" placeholder="Search blog posts...">
+
+          <!-- Blog Post 1 -->
+        <article id="post1" class="blog-post" data-title="The Future of Web Development">
+            <h2>The Future of Web Development</h2>
+            <p class="date">Published: June 1, 2025</p>      
+            <img src="blog1.jpg" alt="Post 1 image">
+            <p>Web development is rapidly evolving with the integration of AI tools, Web3, and immersive 
+                experiences using WebXR. As developers, staying ahead of trends is crucial to building modern, fast, 
+                and accessible applications for the future.
+            </p>
+            <!-- Comment Section for Blog Post 1 -->
+            <div class="comments">
+            <div class="comments">
+                <h3>Comments</h3>
+                <div class="comment-list"></div>
+                <form class="comment-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <textarea name="message" placeholder="Your Comment" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </article>
+
+          <!-- Blog Post 2 -->
+        <article id="post2" class="blog-post" data-title="Why You Should Start Meditating Today">
+            <h2>Why You Should Start Meditating Today</h2>
+            <p class="date">Published: June 10, 2025</p>
+            <img src="blog2.jpg" alt="Post 2 image">
+            <p>Meditation offers a wide range of benefits, including reduced stress, improved focus, and enhanced emotional well-being.
+                 Incorporating even 10 minutes of mindfulness into your daily routine can transform your life over time.
+            </p>
+            <!-- Comment Section for Blog Post 2 -->
+            <div class="comments">
+                <h3>Comments</h3>
+                <div class="comment-list"></div>
+                <form class="comment-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <textarea name="message" placeholder="Your Comment" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </article>
+
+          <!-- Blog Post 3 -->
+        <article id="post3" class="blog-post" data-title="Top 5 Travel Destinations in 2025">
+            <h2>Top 5 Travel Destinations in 2025</h2> 
+            <p class="date">Published: June 20, 2025</p>
+            <img src="blog3.jpg" alt="Post 3 image">
+            <p>From the crystal-clear beaches of Bora Bora to the vibrant cityscape of Tokyo, 2025 is set to be a year full of 
+                amazing travel opportunities. Discover where you should go and what to explore in these stunning destinations.
+            </p>
+            <!-- Comment Section for Blog Post 3 -->
+            <div class="comments">
+                <h3>Comments</h3>
+                <div class="comment-list"></div>
+                <form class="comment-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <textarea name="message" placeholder="Your Comment" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </article>
+    </main>
+
+     <!-- Footer with Social Media Links -->
+    <footer>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/company/unifiedmentor">LinkedIn</a>
+            <a href="https://twitter.com/unifiedmentor">Twitter</a>
+            <a href="https://www.youtube.com/@_Unifiedmentor">YouTube</a>
+            <a href="https://instagram.com/_unifiedmentor">Instagram</a>
+            <a href="https://www.facebook.com/Unifiedmentor">Facebook</a>
+        </div>
+        <p>&copy; 2025 My Blog. All rights reserved.</p>
+    </footer>
+
+     <!-- JavaScript for comment handling and search functionality -->
+    <script src="script.js"></script>
+</body>
+</html>
